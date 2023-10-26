@@ -1,0 +1,35 @@
+{
+  "name": "calendar-table-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southchen/calendar-table-generator.git"
+  },
+  "keywords": [
+    "calendar",
+    "headless"
+  ],
+  "author": "Nan Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/southchen/calendar-table-generator/issues"
+  },
+  "homepage": "https://github.com/southchen/calendar-table-generator#readme",
+  "devDependencies": {
+    "@types/lodash.head": "^4.0.8",
+    "@types/lodash.last": "^3.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "lodash.head": "^4.0.1",
+    "lodash.last": "^3.0.0"
+  }
+}
